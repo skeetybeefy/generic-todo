@@ -8,7 +8,7 @@ function SingleTask(props) {
 
     function removeTask() {
         props.newState(props.tasks.filter((task) => {
-            return task !== props.text ? true : false
+            return task.id !== props.id ? true : false
         }))
     }
 }

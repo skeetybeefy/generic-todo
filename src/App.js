@@ -4,7 +4,10 @@ import TaskAdder from './TaskAdder'
 
 function App() {
 
-    let [state, changeState] = useState(["test", "nexttest"])
+    let [state, changeState] = useState([
+        {id: 2, text: "Buy some bread"},
+        {id: 1, text: "Meet with Andrew"}
+    ])
 
     return (
         <>

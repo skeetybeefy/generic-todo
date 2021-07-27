@@ -15,7 +15,7 @@ body {
   display: flex;
   justify-content: center;
   width: 30vw;
-  margin: 0 auto;
+  margin: 0 auto 15px auto;
 }
 
 .task-container {

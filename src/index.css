@@ -19,7 +19,21 @@ body {
 }
 
 .task-container {
-  display: flex;
-  width: 30vw;
+  /* display: flex; */ 
+  width: 30vw; 
   margin: 10px auto;
+}
+
+.task-inner-text {
+  text-align: center;
+}
+
+.remove-btn {
+  display: block;
+  width: 20%;
+  margin: 5px auto;
+}
+
+#add-new-todo-input {
+  margin-left: 1vw;
 }

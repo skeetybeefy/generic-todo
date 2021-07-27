@@ -1,1 +1,1 @@
-this is a genetic todo
+this is a generic todo
